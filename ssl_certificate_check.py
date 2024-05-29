@@ -43,7 +43,7 @@ def print_certificate_details(certificate):
 def main():
     hostname = input("Lütfen SSL sertifikasını kontrol etmek istediğiniz web sitesinin alan adını girin (örneğin, www.google.com): ")
     
-    print("\nSSL Sertifika Detayları:")
+    print("\nSSL Certficate Detays:")
     try:
         certificate = get_ssl_certificate_details(hostname)
         print_certificate_details(certificate)
